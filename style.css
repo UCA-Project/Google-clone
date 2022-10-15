@@ -1,0 +1,10 @@
+main{
+    background-color: blue;
+    height: 0;
+    flex: 1;
+}
+body{
+    margin: 0;
+    display: 1;
+
+}
