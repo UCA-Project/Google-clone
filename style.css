@@ -1,5 +1,7 @@
-.head {
-    background-color: red;
+.header {  
+    display: flex;
+    justify-content: space-between;  
+
 }
 
 .main {
@@ -56,4 +58,33 @@ body {
     border: none;
     outline: none;
     padding: 10px 15px;
+}
+
+.header_left{
+    display: flex;
+    align-items: center;
+
+}
+
+.header_right {
+    display: flex;
+    align-items: center;
+}
+
+.header_right a {
+    padding: 10px;
+}
+
+.header_left a {
+    padding: 10px;
+}
+
+.header a {
+    padding: 10px;
+    text-decoration: none;
+    color: black; 
+}
+
+.header span {
+    padding: 10px;
 }
