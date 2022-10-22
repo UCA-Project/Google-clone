@@ -1,13 +1,43 @@
-.head {
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    
+}
+.header-left {
+    display: flex;
 
-    background-color: red;
+    align-items: center;
+    margin-left: 17px;
+    font-size: 14px;
+    
+}
+.header-right {
 
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+    font-size: 14px;
+}
+.header-right a {
+    margin: 10px;
+    text-decoration: none;
+    color : rgb(59, 59, 59);
+}
+.header-right span {
+    margin: 10px;
+    color: rgb(108,108,108);
+}
+.header-left a {
+    margin: 10px;
+    text-decoration: none;
+    color: rgb(59, 59, 59);
 }
 .content {
 
 
     flex: 1;
-    margin-top: 12%;
+    margin-top: 6%;
     display: flex;
     flex-direction: column;
 }
@@ -18,15 +48,15 @@ body {
     height: 100vh;
 }
 .content img {
-    height: 100px;
+    height: 93px;
     object-fit: contain;
 }
 .search_input {
     background-color: rgb(255, 255, 255);
-    width: 75vw;
+    width: 70vw;
     height: 30px;
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 23px;
     display: flex;
     border-radius: 999px;
     padding: 7px 20px;
