@@ -1,6 +1,37 @@
-.head{
-    background-color: red;
-    height: 7vh;
+.header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header_left{
+    background-color:white;
+    display: flex;
+    align-items: center;
+}
+
+.header_right{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    
+}
+
+.header_right a{
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.header_right span{
+    margin: 10px;
+}
+
+.header_left a{
+    margin: 10px;
+    text-decoration: none;
+    color: black;
 }
 
 .main{
