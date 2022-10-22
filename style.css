@@ -1,5 +1,6 @@
-.head {
-    background-color: red;
+.header {
+    display: flex;
+    justify-content: space-between;
 }
 
 .main {
@@ -56,4 +57,15 @@ body {
     border: none;
     outline: none;
     padding: 10px 15px;
+}
+
+.header_left, .header_right {
+    display: flex;
+    align-items: center;
+}
+
+.header a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
 }
